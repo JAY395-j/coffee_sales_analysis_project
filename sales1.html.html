@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Sales Data Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Coffee Sales Analysis Project</h1>
+    </header>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>
+                This project provides an analysis of Coffee sales  data to understand the coffee sales as well as coffee shop bussiness reach.
+                It includes data summaries and visualizations to help interpret the sales of coffee to measure growth ,lossess ,and customer demands analysis 
+            </p>
+        </section>
+        <section id="data-summary">
+            <h2>Data Summary</h2>
+            <div id="data-table">
+                <!-- Add your data summary here -->
+                <p>
+                    The data used in this analysis includes information on confirmed sales, payment methods, and most saled coffee type  and  distribution from data-set.
+                    Below is a brief summary of the dataset:
+                </p>
+                <ul>
+                    <li>Total Entries: 976</li>
+                    <li>Data Columns: 6</li>
+                    <li>Data Source: Kaggle Coffee sales analiys Dataset</li>
+                </ul>
+            </div>
+        </section>
+        <section id="visualizations">
+            <h2>Visualizations</h2>
+            <div class="chart" id="chart1">
+                <h3> Total Sales by Coffee Type</h3>
+                <p>
+                    This bar chart shows the most orderd coffee type.
+                </p>
+                <!-- Embed Bar  graph1 -->
+                <iframe src="graph1.png" width="100%" height="600"> </iframe>
+            </div>
+            <div class="chart" id="chart2">
+                <h3>Relationship between Coffee sales and price</h3>
+                <p>
+                    This scatter plot shows the top 10 states in India with the highest number of deaths due to COVID-19.
+                </p>
+                <!-- Embed sactterplot graph2   -->
+                <iframe src="graph 2.png" width="100%" height="600"></iframe>
+            </div> 
+            <div class="chart" id="chart3">
+                <h3>Payment Method distribution</h3>
+                <p>
+                    This pie chart shows the most used payment method
+                </p>
+                <!-- Embed pie graph3-->
+                <iframe src="graph3.png" width="100%" height="400"></iframe>
+            </div>
+            <div class="chart" id="chart4">
+                <h3>Sales Distribution by Hour</h3>
+                <p>
+                    This bar chart shows the sales distribution by hour and hours of day , of coffee sales.
+                </p>
+                <!-- Embed Bar graph4 -->
+                <iframe src="graph4.png" width="100%" height="400"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Coffee Sales Data Analysis</p>
+    </footer>
+</body>
+</html>
